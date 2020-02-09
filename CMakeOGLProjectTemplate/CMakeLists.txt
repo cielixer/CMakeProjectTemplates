@@ -49,6 +49,10 @@ include_directories(${OPENGL_INCLUDE_DIR})
 # subdirectories
 add_subdirectory(src)
 
+# copy all resource datas
+file(COPY ${PROJECT_ROOT}/res DESTINATION ${CMAKE_CURRENT_BINARY_DIR}/)
+file(COPY ${PROJECT_ROOT}/res DESTINATION ${PROJECT_ROOT}/bin/)
+
 # make executable
 add_executable(app main.cpp)
 target_link_libraries(app 
