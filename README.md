@@ -1,16 +1,16 @@
 # CMakeProjectTemplates
-* Collection of my Basic CMake project structure templates.
+* Collection of my Basic CMake project structure templates based on Modern C++(17).
 * Purpose of this repository is from my laziness of making CMake scripts every time making a project.
 
 ## Templates
 * C++
-  * basic modern C++(17) project structure
+  * basic Modern C++ project structure
 * OpenGL
-  * OpenGL project template based on Modern C++(17) using GLFW3 and GLEW
+  * OpenGL project template based on Modern C++ using GLFW3 and GLEW
 * OpenCV (in process)
-  * OpenCV project template based on Modern C++(17) using only OpenCV
+  * OpenCV project template based on Modern C++ using only OpenCV
 * AR(OpenGL + OpenCV) (in process)
-  * Augmented Reality project template based on Modern C++(17) using combinations of right above two project templates(OpenGL, OpenCV)
+  * Augmented Reality project template based on Modern C++ using combinations of right above two project templates(OpenGL, OpenCV)
 * Vulkan (in process)
   * Vulkan project template ...
 
