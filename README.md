@@ -14,7 +14,7 @@
 * Vulkan (in process)
   * Vulkan project template ...
 
-## Setup scripts
+## Scripts
 * All template projects above contains ```scripts/make_project.py``` and ```scripts/setup_project.py``` to generate(make a copy and renaming it) the basic project template
 * run ``` scripts/make_project.py ``` to make(copy) CMake project structures
   * ```-h  --help```        : help
@@ -25,7 +25,7 @@
     ex) ```python ./scripts/make_project.py -n proj_name -d /folder/you/want/ -r```
 
 * run  ``` scripts/setup_project.py ``` to generate blank folders
-
+* run  ``` scripts/clean_project.py ``` to clean(remove) all cmake caches and build files
 
 ## Basic structures
 * The basic structure is exactly same as the C++ Project templates, and other templates are modified version(adding FindXXXX.cmake... something like that)
@@ -45,6 +45,7 @@
 ├── out
 ├── res
 ├── scripts
+│   ├── clean_project.py
 │   ├── make_project.py
 │   └── setup_project.py
 ├── src
