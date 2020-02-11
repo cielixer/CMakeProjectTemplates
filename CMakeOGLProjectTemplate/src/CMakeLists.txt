@@ -23,15 +23,3 @@ file(GLOB_RECURSE sources
 )
 
 add_library(Modules STATIC ${headers} ${sources})
-
-target_include_directories(
-	Modules
-	PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}
-)
-
-target_link_libraries(
-	Modules
-	${GLFW3_LIBRARY}
-	${GLEW_LIBRARY}
-	${OPENGL_LIBRARIES}
-)

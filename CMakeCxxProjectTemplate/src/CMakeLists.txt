@@ -23,8 +23,3 @@ file(GLOB_RECURSE sources
 )
 
 add_library(hello_module STATIC ${headers} ${sources})
-
-target_include_directories(
-	hello_module
-	PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}
-)
